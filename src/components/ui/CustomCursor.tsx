@@ -201,32 +201,26 @@ export const CustomCursor: React.FC = () => {
             </filter>
           </defs>
 
-          {/* Main Beveled Aerodynamic Arrow Silhouette (Point at 1.5, 1.5) */}
+          {/* Main Beveled Aerodynamic Arrow Silhouette (Exact 1:1 match to reference image) */}
           <path
-            d="M 2.5 2.5 
-               C 3.5 1.5, 5.2 2.0, 7.0 2.8 
-               L 26.5 12.8 
-               C 28.5 13.8, 28.8 16.2, 27.2 17.5 
-               C 26.2 18.2, 24.8 18.2, 23.5 17.8 
-               L 16.8 15.6 
-               C 15.6 15.2, 14.5 15.6, 13.8 16.5 
-               L 9.2 22.8 
-               C 7.8 24.8, 5.2 25.2, 3.8 23.8 
-               C 2.6 22.6, 2.4 20.8, 3.0 19.2 
-               L 5.8 12.2 
-               C 6.2 11.2, 5.8 10.0, 5.0 9.2 
-               L 2.6 6.8 
-               C 1.6 5.8, 1.6 3.6, 2.5 2.5 Z"
+            d="M 2.5 2.5
+               C 10.0 2.8, 22.0 6.2, 30.2 10.5
+               C 32.0 12.5, 28.5 15.2, 24.5 15.8
+               C 19.0 16.8, 16.5 19.5, 15.0 23.5
+               C 13.5 27.5, 11.5 31.8, 9.2 31.5
+               C 7.0 31.0, 5.8 26.0, 5.0 20.5
+               C 3.8 13.5, 2.8 6.5, 2.5 2.5 Z"
             fill={isOverLightSurface ? "url(#cursorBodyLightSurface)" : "url(#cursorBodyDarkSurface)"}
             stroke={isOverLightSurface ? "#5DD62C" : "#060B06"}
             strokeWidth="1.2"
             strokeLinejoin="round"
+            strokeLinecap="round"
             filter="url(#cursorShadow)"
           />
 
           {/* 3D Bevel Top Ridge Highlight */}
           <path
-            d="M 3.8 4.0 L 25.0 14.0"
+            d="M 3.8 4.2 C 10.5 4.8, 18.0 7.5, 24.0 11.5"
             stroke="url(#cursorHighlight)"
             strokeWidth="1.2"
             strokeLinecap="round"
