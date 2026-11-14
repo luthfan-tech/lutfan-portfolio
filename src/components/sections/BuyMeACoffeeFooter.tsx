@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import { BMAC_QR_DATA_URI } from "@/lib/bmacQrDataUri";
 
 export interface BuyMeACoffeeFooterProps {
   className?: string;
@@ -483,14 +483,16 @@ export const BuyMeACoffeeFooter: React.FC<BuyMeACoffeeFooterProps> = ({
             </p>
 
             {/* Official Buy Me a Coffee QR Code Image */}
-            <div className="mt-5 relative rounded-2xl bg-white p-3.5 shadow-2xl border-4 border-[#5DD62C]/40">
-              <Image
-                src="/images/buymeacoffee-qr.jpg"
+            <div className="mt-5 relative rounded-2xl bg-white p-3.5 shadow-2xl border-4 border-[#5DD62C]/40 flex items-center justify-center min-w-[220px] min-h-[220px]">
+              {/* Direct unoptimized img with embedded base64 data URI for 100% reliable zero-latency rendering across all networks, proxies, and adblockers */}
+              <img
+                src={BMAC_QR_DATA_URI}
                 alt="Buy Me a Coffee QR Code - Lutfan"
                 width={220}
                 height={220}
-                className="rounded-lg object-contain"
-                priority
+                className="rounded-lg object-contain w-[220px] h-[220px] select-none"
+                loading="eager"
+                decoding="sync"
               />
               <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 rounded-full bg-[#060B06] border border-[#5DD62C] px-3 py-0.5 text-[9px] font-mono font-bold text-[#5DD62C] shadow-sm whitespace-nowrap">
                 SCAN WITH ANY PHONE CAMERA
