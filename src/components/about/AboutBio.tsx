@@ -72,19 +72,19 @@ export const AboutBio: React.FC<AboutBioProps> = ({
 
           <h2>Featured Projects &amp; Systems</h2>
           <div class="item">
-            <div class="item-title"><span>AdaptLearn &mdash; Adaptive Learning System</span><span>2024</span></div>
+            <div class="item-title"><span>AdaptLearn &mdash; Adaptive Learning System</span><span>2026</span></div>
             <div class="item-desc">Multi-format educational platform for students with disabilities featuring Bayesian Knowledge Tracing, Epsilon-greedy presentation selection, and browser Web Speech APIs.</div>
           </div>
           <div class="item">
-            <div class="item-title"><span>30-Day Full-Stack Foundations Sprint</span><span>2024</span></div>
+            <div class="item-title"><span>30-Day Full-Stack Foundations Sprint</span><span>2026</span></div>
             <div class="item-desc">Comprehensive client-server curriculum covering React hooks, state lifting, REST contracts, JWT security, and OWASP defense strategies.</div>
           </div>
           <div class="item">
-            <div class="item-title"><span>Python Libraries Sprint &mdash; Data &amp; ML</span><span>2024</span></div>
+            <div class="item-title"><span>Python Libraries Sprint &mdash; Data &amp; ML</span><span>2026</span></div>
             <div class="item-desc">Applied data science routines using NumPy broadcasting, Pandas aggregations, Matplotlib visualization suites, and PyTorch gradient descent loops.</div>
           </div>
           <div class="item">
-            <div class="item-title"><span>100 Python Programs Suite</span><span>2024</span></div>
+            <div class="item-title"><span>100 Python Programs Suite</span><span>2026</span></div>
             <div class="item-desc">100 curated computational algorithms, recursive structures, OOP patterns, custom generators, and exception handling patterns.</div>
           </div>
 

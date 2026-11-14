@@ -7,7 +7,7 @@ export const FEATURED_PROJECTS: Project[] = [
     slug: "adaptlearn-adaptive-system",
     summary:
       "An adaptive-learning web prototype exploring multi-format educational content presentation for students with disabilities, built for HI-03 (Adaptive Learning for Students with Disabilities).",
-    year: "2024",
+    year: "2026",
     role: "Full-Stack Developer",
     tags: ["FastAPI", "Python", "JavaScript", "Web Speech API", "Bayesian Tracing"],
     links: [
@@ -37,7 +37,7 @@ export const FEATURED_PROJECTS: Project[] = [
     slug: "30-day-fullstack-challenge",
     summary:
       "A systematic 30-day engineering sprint exploring the end-to-end modern web architecture: from semantic HTML/CSS and DOM manipulation to React, backend APIs, databases, and secure-development habits.",
-    year: "2024",
+    year: "2026",
     role: "Full-Stack Engineering",
     tags: ["React", "JavaScript", "Node.js", "Express", "REST APIs", "OWASP Security"],
     links: [
@@ -63,7 +63,7 @@ export const FEATURED_PROJECTS: Project[] = [
     slug: "python-libs",
     summary:
       "A hands-on learning sprint covering essential Python libraries for numerical computing (NumPy), tabular data analysis (Pandas), visual charts (Matplotlib), and introductory deep learning (PyTorch).",
-    year: "2024",
+    year: "2026",
     role: "Data & Systems Developer",
     tags: ["Python", "NumPy", "Pandas", "Matplotlib", "PyTorch", "Autograd"],
     links: [
@@ -89,7 +89,7 @@ export const FEATURED_PROJECTS: Project[] = [
     slug: "100-python-programs",
     summary:
       "A foundational 100-problem programming curriculum covering computational logic, recursion, searching, sorting, file I/O, OOP, decorators, generators, regex, and data structures.",
-    year: "2024",
+    year: "2026",
     role: "Algorithmic Foundations",
     tags: ["Python", "Algorithms", "Data Structures", "OOP", "Decorators", "Recursion"],
     links: [

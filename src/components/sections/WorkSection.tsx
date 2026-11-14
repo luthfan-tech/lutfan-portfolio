@@ -136,7 +136,7 @@ export const WorkSection: React.FC<WorkSectionProps> = ({
                     {/* Meta & Title */}
                     <div className="flex-1 max-w-3xl">
                       <div className="flex flex-wrap items-center gap-2.5 font-mono text-xs text-white/50 mb-2">
-                        <span className="text-[#5DD62C] font-semibold">{project.year || "2024"}</span>
+                        <span className="text-[#5DD62C] font-semibold">{project.year || "2026"}</span>
                         <span>•</span>
                         <span className="text-white/80 font-medium">
                           {project.role || "Software Engineering"}

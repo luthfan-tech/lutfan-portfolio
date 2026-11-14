@@ -173,7 +173,7 @@ export const EditorialArchive: React.FC<EditorialArchiveProps> = ({
                   </div>
 
                   <span className="font-mono text-xs text-white/60 font-medium">
-                    {project.year || "2024"}
+                    {project.year || "2026"}
                   </span>
                 </div>
 
